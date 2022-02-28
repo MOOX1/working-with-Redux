@@ -1,9 +1,8 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import App from "./App"
-import {Provider} from 'react-redux'
-import {createStore} from 'redux'
-import {reducer} from '../reducers/Reducers'
+import {Provider} from 'react-redux' //usado para setar a store
+import {createStore} from 'redux' // usado para criar a store
+import {reducer} from '../reducers/Reducers' // usado para manipular o estado
 import Counter from '../Componentes/Counter'
 
 // criando a store
