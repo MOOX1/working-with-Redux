@@ -10,8 +10,8 @@ const store = createStore(
   reducer,
   window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()
 )
-
-ReactDOM.render(<Provider store={store}>
+//provider usado para setar o store
+ReactDOM.render(<Provider store={store}> 
   <Counter />
 </Provider>,
   document.getElementById('root')
